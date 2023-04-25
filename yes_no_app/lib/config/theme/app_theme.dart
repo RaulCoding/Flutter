@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const Color _customColor = Color.fromARGB(255, 97, 1, 251);
+const Color _customColor = Color.fromARGB(255, 82, 28, 168);
 
 const List<Color> _colorThemes = [
   _customColor,
@@ -10,11 +10,19 @@ const List<Color> _colorThemes = [
   Colors.yellow,
   Colors.orange,
   Colors.pink,
-
 ];
 
 class Apptheme {
+  final int selectedColor;
+
+  Apptheme({this.selectedColor = 0})
+    : assert(selectedColor >= 0 && selectedColor <= _colorThemes.length - 1, 
+             'Colors must between 0 and ${_colorThemes.length}');
+
   ThemeData theme() {
-    return ThemeData(useMaterial3: true);
+    return ThemeData(
+      useMaterial3: true,
+      colorSchemeSeed: _colorThemes[selectedColor],
+    );
   }
 }
