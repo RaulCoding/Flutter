@@ -1,3 +1,7 @@
+# No subiré los videos
+assets/videos/*.mp4
+
+
 # Miscellaneous
 *.class
 *.log
@@ -42,5 +46,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-/assets/videos/
-
