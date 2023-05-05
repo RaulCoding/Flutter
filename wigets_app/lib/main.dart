@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: Apptheme(selectedColor: 6).getTheme(),
+      theme: Apptheme(selectedColor: 0).getTheme(),
       home:  const HomeScreen()
     );
   }
