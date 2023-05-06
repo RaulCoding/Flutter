@@ -16,7 +16,7 @@ class ButtonsScreen extends StatelessWidget {
       ),
       body: const _ButtonsView(),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.arrow_back_ios_new_rounded),
+        child: const Icon(Icons.arrow_back_ios_new_rounded),
         onPressed: (){
           context.pop();
         },
@@ -47,7 +47,7 @@ class _ButtonsView extends StatelessWidget {
             ElevatedButton.icon(
               onPressed: (){}, 
               icon: const Icon(Icons.access_alarm_rounded),
-              label:Text('Elevated Icon')
+              label:const Text('Elevated Icon')
             ),
             
             FilledButton(onPressed: (){}, child: const Text('Filled')),
