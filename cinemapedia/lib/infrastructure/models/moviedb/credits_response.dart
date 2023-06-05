@@ -1,23 +1,14 @@
-// To parse this JSON data, do
-//
-//     final creditsResponse = creditsResponseFromJson(jsonString);
-
-import 'dart:convert';
-
-CreditsResponse creditsResponseFromJson(String str) => CreditsResponse.fromJson(json.decode(str));
-
-String creditsResponseToJson(CreditsResponse data) => json.encode(data.toJson());
 
 class CreditsResponse {
-    final int id;
-    final List<Cast> cast;
-    final List<Cast> crew;
-
     CreditsResponse({
         required this.id,
         required this.cast,
         required this.crew,
     });
+
+    final int id;
+    final List<Cast> cast;
+    final List<Cast> crew;
 
     factory CreditsResponse.fromJson(Map<String, dynamic> json) => CreditsResponse(
         id: json["id"],
@@ -33,21 +24,6 @@ class CreditsResponse {
 }
 
 class Cast {
-    final bool adult;
-    final int gender;
-    final int id;
-    final String knownForDepartment;
-    final String name;
-    final String originalName;
-    final double popularity;
-    final String? profilePath;
-    final int? castId;
-    final String? character;
-    final String creditId;
-    final int? order;
-    final String? department;
-    final String? job;
-
     Cast({
         required this.adult,
         required this.gender,
@@ -65,11 +41,26 @@ class Cast {
         this.job,
     });
 
+    final bool adult;
+    final int gender;
+    final int id;
+    final String knownForDepartment;
+    final String name;
+    final String originalName;
+    final double popularity;
+    final String? profilePath;
+    final int? castId;
+    final String? character;
+    final String creditId;
+    final int? order;
+    final String? department;
+    final String? job;
+
     factory Cast.fromJson(Map<String, dynamic> json) => Cast(
         adult: json["adult"],
         gender: json["gender"],
         id: json["id"],
-        knownForDepartment:json["known_for_department"]!,
+        knownForDepartment: json["known_for_department"]!,
         name: json["name"],
         originalName: json["original_name"],
         popularity: json["popularity"]?.toDouble(),
@@ -99,5 +90,4 @@ class Cast {
         "job": job,
     };
 }
-
 
