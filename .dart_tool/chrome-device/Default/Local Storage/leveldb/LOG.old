@@ -1,0 +1,30 @@
+2023/06/07-11:02:38.715 4af4 Reusing MANIFEST C:\Users\raulv\AppData\Local\Temp\flutter_tools.9ef54fd6\flutter_tools_chrome_device.9148d0a0\Default\Local Storage\leveldb/MANIFEST-000001
+2023/06/07-11:02:38.716 4af4 Recovering log #3
+2023/06/07-11:02:38.718 4af4 Reusing old log C:\Users\raulv\AppData\Local\Temp\flutter_tools.9ef54fd6\flutter_tools_chrome_device.9148d0a0\Default\Local Storage\leveldb/000003.log 
+2023/06/07-11:04:35.915 4af4 Level-0 table #5: started
+2023/06/07-11:04:35.924 4af4 Level-0 table #5: 511204 bytes OK
+2023/06/07-11:04:35.925 4af4 Delete type=0 #3
+2023/06/07-11:04:42.649 4af4 Level-0 table #7: started
+2023/06/07-11:04:42.655 4af4 Level-0 table #7: 397692 bytes OK
+2023/06/07-11:04:42.655 4af4 Delete type=0 #4
+2023/06/07-11:05:37.424 4af4 Level-0 table #9: started
+2023/06/07-11:05:37.427 4af4 Level-0 table #9: 47336 bytes OK
+2023/06/07-11:05:37.428 4af4 Delete type=0 #6
+2023/06/07-11:06:34.393 4af4 Level-0 table #11: started
+2023/06/07-11:06:34.396 4af4 Level-0 table #11: 101717 bytes OK
+2023/06/07-11:06:34.397 4af4 Delete type=0 #8
+2023/06/07-11:10:23.773 4af4 Level-0 table #13: started
+2023/06/07-11:10:23.776 4af4 Level-0 table #13: 90034 bytes OK
+2023/06/07-11:10:23.777 4af4 Delete type=0 #10
+2023/06/07-11:12:04.674 4af4 Level-0 table #15: started
+2023/06/07-11:12:04.682 4af4 Level-0 table #15: 437436 bytes OK
+2023/06/07-11:12:04.683 4af4 Delete type=0 #12
+2023/06/07-11:12:04.683 4af4 Compacting 4@0 + 1@1 files
+2023/06/07-11:12:04.693 4af4 Generated table #16@0: 138 keys, 497287 bytes
+2023/06/07-11:12:04.693 4af4 Compacted 4@0 + 1@1 files => 497287 bytes
+2023/06/07-11:12:04.693 4af4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/07-11:12:04.694 4af4 Delete type=2 #7
+2023/06/07-11:12:04.694 4af4 Delete type=2 #9
+2023/06/07-11:12:04.694 4af4 Delete type=2 #11
+2023/06/07-11:12:04.695 4af4 Delete type=2 #13
+2023/06/07-11:12:04.695 4af4 Delete type=2 #15
